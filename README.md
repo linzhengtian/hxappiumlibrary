@@ -14,7 +14,9 @@ Library version:1.6
 
 #### Open Application
  - 功能
+ 
  开启设备
+ 
  - 参数
 remote_url, alias=None, **kwargs
  - 例子
