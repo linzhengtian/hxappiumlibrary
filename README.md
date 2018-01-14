@@ -18,9 +18,11 @@ Library version:1.6
  开启设备
  
  - 参数
+ 
 remote_url, alias=None, **kwargs
+
  - 例子
-<table style="width:1600px;font-size:5px;">
+<table>
     <tr>
         <td>Open Application</td>
         <td>http://localhost:4723/wd/hub</td>
@@ -29,14 +31,15 @@ remote_url, alias=None, **kwargs
         <td>deviceName=b251f00d</td>
         <td>udid=b251f00d</td>
         <td>app=${CURDIR}/Haixiabank.apk</td>
-        <td>appPackage=com.haixia</td>                                   <td>appActivity=.ui.SplashScreenActivity</td>
+        <td>appPackage=com.haixia</td>                                   
+        <td>appActivity=.ui.SplashScreenActivity</td>
         <td>unicodeKeyboard=True</td>   
         <td>resetKeyboard=True</td>
     </tr>
 </table>
 
 #### Close Application
- - 功能
+ - 功能 
  关闭设备
 
 #### Reset Application
