@@ -39,20 +39,26 @@ remote_url, alias=None, **kwargs
 </table>
 
 #### Close Application
- - 功能 
+ - 功能
+ 
  关闭设备
 
 #### Reset Application
  - 功能
+ 
  重启设备
 
 #### Set Application Timeout
  - 功能
+ 
  设置Appium超时时长
+ 
  - 参数
+ 
 seconds
+
  - 例子
-<table style="width:200px;font-size:5px;">
+<table>
     <tr>
         <td>Set Application Timeout</td>
         <td>120</td>
@@ -61,19 +67,25 @@ seconds
 
 #### Get Appium Timeout
  - 功能
+ 
  获取Appium超时时长
 
 #### Get Source
  - 功能
+ 
  获取页面DOM代码
 
 #### Open Application
  - 功能
+ 
  开启设备
+ 
  - 参数
+ 
 remote_url, alias=None, **kwargs
+
  - 例子
-<table style="font-size:5px;">
+<table>
     <tr>
         <td>Open Application</td>
     </tr>
