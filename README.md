@@ -6,7 +6,7 @@ Library version:1.6
 
 ### **介绍**
 
-本文档是海峡银行的Robotframework-AppiumLibrary的底层关键字的使用手册。
+本文档是我行的Robotframework-AppiumLibrary的底层关键字的使用手册。
 
 ---
 
