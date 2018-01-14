@@ -57,14 +57,6 @@ remote_url, alias=None, **kwargs
  
 seconds
 
- - 例子
-<table>
-    <tr>
-        <td>Set Application Timeout</td>
-        <td>120</td>
-    </tr>
-</table>
-
 #### Get Appium Timeout
  - 功能
  
@@ -73,21 +65,4 @@ seconds
 #### Get Source
  - 功能
  
- 获取页面DOM代码
-
-#### Open Application
- - 功能
- 
- 开启设备
- 
- - 参数
- 
-remote_url, alias=None, **kwargs
-
- - 例子
-<table>
-    <tr>
-        <td>Open Application</td>
-    </tr>
-</table>
- 
+ 获取页面DOM代码 
