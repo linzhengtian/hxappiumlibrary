@@ -180,6 +180,7 @@ capability_name
  2      | (Wifi only)      | 0      |   1    | 0      
  4      | (Data only)      | 1      |   0    | 0       
  6      | (All network on) | 1      |   1    | 0       
+ 
  - 例子
 <table>
     <tr>
