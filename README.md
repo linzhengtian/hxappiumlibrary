@@ -1,37 +1,76 @@
-## Welcome to GitHub Pages
+# AppiumLibrary-HaiXia
 
-You can use the [editor on GitHub](https://github.com/linzhengtian/hxappiumlibrary/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+Library version:1.6
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+---
 
-### Markdown
+### **介绍**
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+本文档是海峡银行的Robotframework-AppiumLibrary的底层关键字的使用手册。
 
-```markdown
-Syntax highlighted code block
+---
 
-# Header 1
-## Header 2
-### Header 3
+### **关键字**
 
-- Bulleted
-- List
+#### Open Application
+ - 功能
+ 开启设备
+ - 参数
+remote_url, alias=None, **kwargs
+ - 例子
+<table style="width:1600px;font-size:5px;">
+    <tr>
+        <td>Open Application</td>
+        <td>http://localhost:4723/wd/hub</td>
+        <td>platformName=Android</td>
+        <td>platformVersion=7.0</td>
+        <td>deviceName=b251f00d</td>
+        <td>udid=b251f00d</td>
+        <td>app=${CURDIR}/Haixiabank.apk</td>
+        <td>appPackage=com.haixia</td>                                   <td>appActivity=.ui.SplashScreenActivity</td>
+        <td>unicodeKeyboard=True</td>   
+        <td>resetKeyboard=True</td>
+    </tr>
+</table>
 
-1. Numbered
-2. List
+#### Close Application
+ - 功能
+ 关闭设备
 
-**Bold** and _Italic_ and `Code` text
+#### Reset Application
+ - 功能
+ 重启设备
 
-[Link](url) and ![Image](src)
-```
+#### Set Application Timeout
+ - 功能
+ 设置Appium超时时长
+ - 参数
+seconds
+ - 例子
+<table style="width:200px;font-size:5px;">
+    <tr>
+        <td>Set Application Timeout</td>
+        <td>120</td>
+    </tr>
+</table>
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+#### Get Appium Timeout
+ - 功能
+ 获取Appium超时时长
 
-### Jekyll Themes
+#### Get Source
+ - 功能
+ 获取页面DOM代码
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/linzhengtian/hxappiumlibrary/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+#### Open Application
+ - 功能
+ 开启设备
+ - 参数
+remote_url, alias=None, **kwargs
+ - 例子
+<table style="font-size:5px;">
+    <tr>
+        <td>Open Application</td>
+    </tr>
+</table>
+ 
