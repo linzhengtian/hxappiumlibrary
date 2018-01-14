@@ -57,6 +57,14 @@ remote_url, alias=None, **kwargs
  
 seconds
 
+ - 例子
+<table>
+    <tr>
+        <td>Set Application Timeout</td>
+        <td>120</td>
+    </tr>
+</table>
+
 #### Get Appium Timeout
  - 功能
  
