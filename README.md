@@ -17,7 +17,7 @@ Library version:1.6
 identifier | identifier=my_element	
 id | id=my_element	
 className | class=my_class
-name | name=my_element | appium1.5后失效
+name | name=my_element | 原生方法appium1.5后失效，后期版本采用类似xpath定位
 xpath | xpath=//android.widget.Button[contains(@content-desc,'同意')]
 css_selector | css=.my_button
 accessibility_id | accessibility_id=my_button | Android、IOS通用，IOS里要打开Accessibility权限
