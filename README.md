@@ -40,19 +40,25 @@ ios_class_chain | XCUIElementTypeWindow[1]/XCUIElementTypeOther[1] | IOS10及以
  
  开启设备，端口设置的注意事项如下：
  Appium通过Chromedriver内建混合应用支持，同时确保开发将WebView的setWebContentsDebuggingEnabled设置为true，4.4之前的设备使用 Selendroid支持webview 测试（"automationName": "selendroid"）。
+ 
  uiautomator2驱动下——
     udid、chromeDriverPort、systemPort、automationName
+    
  wda驱动下——
- 真机
-    udid、wdaLocalPort
- 虚拟机
-    udid、deviceName、platformVersion、wdaLocalPort
+ 真机：
+    udid、wdaLocalPort
+ 虚拟机：
+    udid、deviceName、platformVersion、wdaLocalPort
+    
  Safari驱动下——
     browserName、udid、wdaLocalPort、webkitDebugProxyPort
+    
  不安装APP——
     noReset=True
+    
  Android键盘设置——
     unicodeKeyboard=True、resetKeyboard=True
+    
  微信WebView——
     微信打开debugx5.qq.com，可以在任何聊天窗口内输入这个网址，并打开它，勾选“是否打开TBS内核Inspector调试功能”；然后，设置chromeOptions类选项，如：androidProcess", "com.tencent.mm:appbrand0")//对应被测小程序appbrand0
  其他详见：https://github.com/appium/appium/blob/master/docs/cn/writing-running-appium/caps.md
