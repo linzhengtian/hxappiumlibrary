@@ -71,7 +71,7 @@ remote_url, alias=None, **kwargs
  - 例子
 <table>
     <tr>
-        <td>OpenApplication</td>
+        <td>Open Application</td>
         <td>http://localhost:4723/wd/hub</td>
         <td>platformName=Android</td>
         <td>platformVersion=7.0</td>
