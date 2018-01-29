@@ -838,14 +838,14 @@ locator, loglevel='INFO', position=1
  
  - 参数
  
-expected, locator, position=1
+locator, expected, position=1
 
  - 例子
 <table>
     <tr>
         <td>Mobile Element Name Should Be</td>
-        <td>信用卡</td>
         <td>id=menu_list_name</td>
+        <td>信用卡</td>
     </tr>
 </table>
 
@@ -856,7 +856,7 @@ expected, locator, position=1
  
  - 参数
  
-expected, locator, position=1
+locator, expected, position=1
 
 #### Mobile Element Attribute Should Match
  - 功能
@@ -999,14 +999,14 @@ locator, position=1, loglevel='INFO'
  
  - 参数
  
-expected, locator, position=1, message=''
+locator, expected, position=1, message=''
 
  - 例子
 <table>
     <tr>
         <td>Mobile Element Should Contain Text</td>
-        <td>生活缴费</td>
         <td>class=android.widge.TextView</td>
+        <td>生活缴费</td>
         <td></td>
         <td>对应元素不存在</td>
     </tr>
@@ -1019,7 +1019,7 @@ expected, locator, position=1, message=''
  
  - 参数
  
-expected, locator, position=1, message=''
+locator, expected, position=1, message=''
 
 #### Get Elements
  - 功能
