@@ -838,14 +838,14 @@ locator, loglevel='INFO', position=1
  
  - 参数
  
-locator, expected, position=1
+expected, locator, position=1
 
  - 例子
 <table>
     <tr>
         <td>Mobile Element Name Should Be</td>
-        <td>id=menu_list_name</td>
         <td>信用卡</td>
+        <td>id=menu_list_name</td>
     </tr>
 </table>
 
@@ -856,7 +856,7 @@ locator, expected, position=1
  
  - 参数
  
-locator, expected, position=1
+expected, locator, position=1
 
 #### Mobile Element Attribute Should Match
  - 功能
@@ -946,7 +946,7 @@ locator, position=1
  
  - 参数
  
-locator
+js
 
  - 例子
 <table>
