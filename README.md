@@ -115,8 +115,7 @@ Mobile Activate Ime Engine| 变更当前输入法
 
 断言方法
 
-断点策略 | 功能  
-
+断点策略 | 功能 
 ---| ---
 Mobile Element Is Present| 检查指定元素是否存在
 Mobile Element Text Check| 判断指定元素text属性是否存在
