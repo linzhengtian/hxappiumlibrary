@@ -131,7 +131,7 @@ Page Should Contain Text| 判断界面是否存在指定字符串
 Page Should Not Contain Text| 判断界面是否不存在指定字符串
 Mobile Element Should Contain Text| 判断界面是否存在指定字符串
 Mobile Element Should Not Contain Text| 判断界面是否不存在指定字符串
-Mobile Detect| 寻找图片区域在APP界面中的位置
+Mobile Detect| 判断图块在界面是否存在
 Mobile Image Compare| 手机UI截图比对
 
 
