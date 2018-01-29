@@ -33,6 +33,111 @@ ios_class_chain | XCUIElementTypeWindow[1]/XCUIElementTypeOther[1] | IOS10及以
 
 ---
 
+### **关键字一览表**
+
+模拟动作
+
+动作策略 | 功能 
+---| ---
+Open Application| 开启设备
+Close Application| 关闭设备
+Reset Application| 重启设备
+Set Application Timeout| 设置Appium超时时长
+Get Appium Timeout| 获取Appium超时时长
+Get Network Connection Status| 获取APP网络连接状态
+Set Network Connection Status| 设置APP网络连接状态
+Get Source| 获取页面DOM代码
+Get Capability| 获取desired capability配置参数
+Lock| 锁定设备
+Background App| 跳转桌面一段时间后，返回APP界面
+Shake| 摇一摇
+Landscape| 定制横屏
+Portrait| 定制竖屏
+Pull File| 输出手机指定目录path的text文档内容
+Push File| 给手机指定目录path的text文档写入data
+Get Current Context| 获取当前界面Context
+Get Contexts| 获取所有Context
+Switch To Context| 切换context
+Get Activity| 获取APP当前Activity
+Start Activity| 开启指定Activity
+Wait Activity| 等待指定Activity
+Hide Keyboard| 隐藏键盘
+Zoom| 界面元素放大
+Pinch| 界面元素缩放
+Swipe| 实现屏幕滑动
+Swipe By Percent| 屏幕百分比滑动
+Scroll| 元素间滚动
+Scroll Down| 元素间向下滚动
+Scroll Up| 元素间向上滚动
+Long Press| 长按某个元素
+Press Keycode| 按物理按键代码
+Long Press Keycode| 长按物理按键代码
+Mobile Long Press Text Button| 根据文本长按按钮
+Tap| 多次敲击
+Mobile Tap| 多点触碰
+Mobile Drag And Drop| 滑动拖拽
+Click A Point| 点击坐标点
+Click Element At Coordinates| 点击坐标点
+Capture Page Screenshot| 截屏
+Wait Until Element Is Visible| 等待某元素可见
+Wait Until Page Contains| 等待页面出现指定字符串
+Wait Until Page Does Not Contain| 等待页面指定字符串消失
+Wait Until Page Contains Element| 等待页面出现指定定位元素
+Wait Until Page Does Not Contain Element| 等待页面指定定位元素消失
+Clear Text| 清空该元素的输入文本
+Mobile Clear Text| 清空该元素的输入文本
+Click Element| 点击该元素
+Mobile Click Element| 点击该元素
+Mobile Click Text Button| 根据文本点击按钮
+Mobile Swipe In Element| 在指定元素区域内滑动
+Input Text| 给该元素输入文本
+Mobile Input Text| 给该元素输入文本
+Mobile Input Value| 给该元素输入值
+Get Elements| 输出指定定位条件的元素集合
+Mobile Get Element Attribute| 获取指定元素属性
+Mobile Get Element Bounds| 获取指定元素边界属性
+Mobile Get Element Location| 获取指定元素location
+Mobile Get Element Size| 获取指定元素size
+Mobile Get Elements Num|  返回指定元素的个数
+Mobile Get Text Button Num| 返回指定文本按钮元素的个数
+Mobile Jsexecute| 运行简单js代码
+Open Gt| 打开GT软件
+Start Gt| 开启GT监控
+End Gt| 结束GT监控
+background| 唤起APP
+Mobile Detect Click| 图块识别点击
+Mobile Device Time| 获取当前设备时间
+Mobile Active Ime Engine| 获取当前输入法
+Mobile Activate Ime Engine| 变更当前输入法
+
+
+---
+
+断言方法
+
+断点策略 | 功能  
+
+---| ---
+Mobile Element Is Present| 检查指定元素是否存在
+Mobile Element Text Check| 判断指定元素text属性是否存在
+Mobile Element Attribute Should Match| 判断指定元素指定属性是否匹配
+Mobile Element Should Be Disabled| 判断页面指定元素是否不可用
+Mobile Element Should Be Enabled| 判断页面指定元素是否可用
+Mobile Element Name Should Be| 判断指定元素name属性是否存在
+Page Should Contain Element| 判断界面是否存在指定元素
+Page Should Not Contain Element| 判断界面是否不存在指定元素
+Mobile Page Should Contain Element| 判断界面是否存在指定元素
+Mobile Page Should Not Contain Element| 判断界面是否不存在指定元素
+Page Should Contain Text| 判断界面是否存在指定字符串
+Page Should Not Contain Text| 判断界面是否不存在指定字符串
+Mobile Element Should Contain Text| 判断界面是否存在指定字符串
+Mobile Element Should Not Contain Text| 判断界面是否不存在指定字符串
+Mobile Detect| 寻找图片区域在APP界面中的位置
+Mobile Image Compare| 手机UI截图比对
+
+
+---
+
 ### **关键字详情**
 
 #### Open Application
