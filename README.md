@@ -118,7 +118,7 @@ Mobile Activate Ime Engine| 变更当前输入法
 断点策略 | 功能 
 ---| ---
 Mobile Element Is Present| 检查指定元素是否存在
-Mobile Element Text Check| 判断指定元素text属性是否存在
+Mobile Element Text Check| 判断指定元素对应的text属性是否存在
 Mobile Element Attribute Should Match| 判断指定元素指定属性是否匹配
 Mobile Element Should Be Disabled| 判断页面指定元素是否不可用
 Mobile Element Should Be Enabled| 判断页面指定元素是否可用
@@ -143,7 +143,7 @@ Mobile Image Compare| 手机UI截图比对
  - 功能
  
  开启设备，端口设置的注意事项如下：
- Appium通过Chromedriver内建混合应用支持，同时确保开发将WebView的setWebContentsDebuggingEnabled设置为true，4.4之前的设备使用 Selendroid支持webview 测试（"automationName": "selendroid"）。
+ Appium通过Chromedriver内建混合应用支持，同时确保开发将WebView的setWebContentsDebuggingEnabled设置为true，4.4之前的设备使用 Selendroid支持webview 测试（"automationName": "selendroid"）,可以使用aapt dump badging命令查看Android系统下的launchable-activity。
  
  uiautomator2驱动下——
     udid、chromeDriverPort、systemPort、automationName
@@ -956,7 +956,7 @@ locator, expected, position=1
 #### Mobile Element Text Check
  - 功能
  
- 判断指定元素text属性是否存在，存在返回True,不存在返回False，定位方法详见定位策略。
+ 判断指定元素对应的text属性是否存在，存在返回True,不存在返回False，定位方法详见定位策略。
  
  - 参数
  
