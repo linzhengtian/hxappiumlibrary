@@ -1,6 +1,6 @@
 # AppiumLibrary-HaiXia
 
-Library version:1.6
+Library version:1.6 Selenium version:3.3.1
 
 ---
 
