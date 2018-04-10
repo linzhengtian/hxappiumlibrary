@@ -167,6 +167,7 @@ Mobile Image Compare| 手机UI截图比对
     微信打开debugx5.qq.com，可以在任何聊天窗口内输入这个网址，并打开它，勾选“是否打开TBS内核Inspector调试功能”；然后，设置chromeOptions类选项，如：androidProcess", "com.tencent.mm:appbrand0")//对应被测小程序appbrand0
  
  并发方法详见：https://github.com/appium/appium/blob/master/docs/en/advanced-concepts/parallel-tests.md#parallel-android-tests
+ 
  其他详见：https://github.com/appium/appium/blob/master/docs/cn/writing-running-appium/caps.md
  
  - 参数
