@@ -1306,7 +1306,7 @@ origin, destination
 - 例子
 <table>
     <tr>
-        <td>Mobile Activate Ime Engine</td>
+        <td>Mobile Drag And Drop</td>
         <td>id=bt_login</td>
         <td>id=bt_register</td>
     </tr>
